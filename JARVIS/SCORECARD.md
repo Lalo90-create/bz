@@ -1,66 +1,75 @@
-# JARVIS SCORECARD v1.0
+# JARVIS SCORECARD v1.1
 
-## Obiettivo
-Misurare se JARVIS sta davvero producendo valore e se l'abbonamento AI sta rendendo più di quanto costa.
+## Objective
+Measure whether JARVIS is producing real value and whether the AI stack is generating more value than it costs.
 
-## KPI principali
-Aggiorna questi numeri ogni settimana o ogni mese.
+## Core KPI
+Track weekly or monthly:
+- revenue generated;
+- qualified opportunities created;
+- conversations/meetings;
+- proposals;
+- sales closed;
+- hours saved;
+- reusable assets created;
+- processes improved;
+- AI skills learned.
 
-### 1. Ricavi generati
-Quanto denaro è stato direttamente o ragionevolmente attribuibile a lavoro fatto con JARVIS?
+## Keep the two business engines separate
 
-### 2. Opportunità create
-Quanti lead, appuntamenti, proposte, candidature o partnership concrete sono nate?
+### BZ Consulting funnel
+**Lead → Qualified → Conversation → Audit/Discovery → Proposal → Project → Follow-on service**
 
-### 3. Ore risparmiate
-Quante ore di lavoro manuale sono state evitate o ridotte?
+Track:
+- BZ qualified leads;
+- technical/commercial meetings;
+- proposals;
+- estimated pipeline value;
+- closed project revenue;
+- partnership/referral opportunities.
 
-### 4. Asset creati
-Quanti elementi riutilizzabili abbiamo prodotto?
-Esempi:
-- prompt;
-- template;
-- procedure;
-- offerte;
-- presentazioni;
-- workflow;
-- database/CRM.
+### Bazinga Lab / CSC funnel
+**Club → Qualified → Contact → Conversation → Small paid entry → Recurring service → Referral**
 
-### 5. Processi migliorati
-Quante attività ora sono più semplici, veloci o affidabili?
+Track:
+- CSC/club qualified leads;
+- personalized contacts;
+- replies;
+- meetings/conversations;
+- audits/training/menu/event/CRM pilots sold;
+- recurring clients;
+- referrals;
+- Bazinga revenue.
 
-### 6. Competenze acquisite
-Quali capacità AI nuove sono state realmente comprese e riutilizzate?
+## Weekly table
+| Period | BZ Revenue € | Bazinga Revenue € | BZ Qualified Leads | CSC Qualified Leads | Meetings | Proposals / Paid Entries | Sales | Hours Saved | Assets | Skills |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Week 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## Tabella base
-| Periodo | Ricavi € | Lead | Appuntamenti | Proposte | Vendite | Ore risparmiate | Asset creati | Skill apprese |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Settimana 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+## Fast Cash vs Big Projects
+Track both:
+- Fast Cash opportunities currently active;
+- Big Projects currently in pipeline;
+- estimated value;
+- nearest next action;
+- biggest blocker.
 
-## Funnel commerciale BZ
-Traccia almeno:
+## AI ROI
+When enough data exists:
 
-**Lead → Contatti → Risposte → Conversazioni → Appuntamenti → Proposte → Vendite**
+**AI ROI = (Economic value generated + declared value of time saved - AI tool cost) / AI tool cost**
 
-Questo permette di capire dove perdiamo opportunità.
+Do not invent the monetary value of saved time; use a declared assumption.
 
-## ROI semplice dell'AI
-Quando abbiamo dati sufficienti usa:
+## Weekly review
+JARVIS should answer:
+1. Which engine produced more progress: BZ or Bazinga?
+2. What is closest to cash?
+3. Where is the funnel blocked?
+4. Which offer received the best response?
+5. What should be repeated, changed or stopped?
+6. What can be automated without adding unnecessary complexity?
 
-**ROI AI = (Valore economico generato + valore del tempo risparmiato - costo strumenti AI) / costo strumenti AI**
-
-Il valore del tempo risparmiato deve essere una stima dichiarata, non un dato inventato.
-
-## Review settimanale
-JARVIS dovrebbe aiutare a rispondere a 5 domande:
-1. Cosa ha prodotto più valore questa settimana?
-2. Dove abbiamo perso tempo?
-3. Quale opportunità è più vicina al denaro?
-4. Cosa possiamo standardizzare o automatizzare?
-5. Qual è la priorità della prossima settimana?
-
-## Regola
-Non ottimizzare KPI vanitosi come numero di messaggi, documenti o ore passate sull'AI.
-
-Misura soprattutto:
-**ricavi, conversioni, opportunità, tempo risparmiato e capacità riutilizzabili.**
+## Rule
+Do not optimize vanity metrics like number of posts, prompts or documents.
+Measure primarily revenue, conversion, qualified opportunities, time saved and reusable capability.
