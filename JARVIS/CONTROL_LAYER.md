@@ -106,6 +106,9 @@ Rules:
 3. Do not pretend a tool is connected or capable when it is not.
 4. Do not use five tools when one or two are sufficient.
 5. Never expose confidential information to a public destination merely because it is convenient.
+6. Prefer built-in capabilities and already-connected apps before adding a new plugin or external system.
+7. Discover or install a plugin only when it closes a real capability gap or materially improves a proven workflow; do not add a second CRM, knowledge base or project manager merely because one is available.
+8. Keep app permissions at the least-permissive level that still allows useful work. Full-access overrides should require a clear operational reason.
 
 ## 5. Risk Router
 Before execution, choose the quality/risk level from `QUALITY_SYSTEM.md`:
@@ -189,12 +192,12 @@ The project is the user-facing workspace. It is not a new source of truth.
 
 ### Recommended configuration
 1. Create one private ChatGPT Project named `JARVIS`.
-2. In account settings, keep **Reference saved memories** and **Reference chat history** enabled so project memory is available.
+2. In account settings, keep ChatGPT **Memory enabled**. The interface may expose one unified memory control or separate memory/history controls depending on the current product version; do not rely on a specific label.
 3. In Project settings → Memory, select **Project-only memory** for a clean isolated JARVIS workspace.
 4. Put JARVIS behavior text in **Project instructions** — never in the Memory selector.
 5. Move the current JARVIS-building conversation into the project so its history becomes available inside the isolated project.
 6. Move other past chats into JARVIS only when they contain durable context worth preserving; do not import unrelated conversation history.
-7. Add the private Google Drive JARVIS file/folder link as a project source. Google Drive access inside a project is live access, not a guaranteed pre-synced index.
+7. Use the connected Google Drive app to access `JARVIS PRIVATE` live from project chats. If the current Project interface supports adding a Drive file/folder as a persistent project source, that may also be used. If it does not, do not create local duplicate files merely to attach them.
 8. Use connected apps such as Google Drive and GitHub inside project chats when the task requires them.
 9. Keep GitHub as the public-safe canonical home of operating rules and methods.
 10. Keep private leads, contacts, prices, margins, documents and negotiations in the private Drive layer.
@@ -203,9 +206,9 @@ The project is the user-facing workspace. It is not a new source of truth.
 Project-only memory keeps JARVIS focused:
 - chats can reference other chats in the same JARVIS project;
 - project context does not leak into unrelated chats;
-- unrelated saved memories and outside conversations do not silently affect JARVIS.
+- unrelated outside conversations do not silently affect JARVIS.
 
-Trade-off: previously saved memories and outside chats are not referenced inside the project. Therefore important existing context should be migrated deliberately by moving relevant chats or placing durable facts in canonical project/private sources.
+Trade-off: outside chats are not part of the project context. Important existing context should therefore be migrated deliberately by moving relevant chats or placing durable facts in canonical project/private sources.
 
 ### Instruction precedence
 Project instructions apply only inside JARVIS and override global custom instructions there.
