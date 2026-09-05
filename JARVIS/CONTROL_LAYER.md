@@ -182,7 +182,38 @@ When improving JARVIS itself:
 6. rely on GitHub/Drive version history instead of `v1`, `v2`, `final2` files;
 7. verify that the change makes JARVIS easier, more reliable or more valuable.
 
-## 11. How Lautaro Uses JARVIS
+## 11. Runtime Shell — ChatGPT Project
+The preferred daily runtime for JARVIS is a dedicated private ChatGPT Project named **JARVIS**.
+
+Why:
+- project instructions keep JARVIS behavior consistent;
+- project chats preserve ongoing context;
+- project memory supports continuity;
+- Google Drive sources can be added to the project;
+- connected apps can be used inside project chats;
+- the system can evolve without rebuilding a static assistant from scratch.
+
+Recommended project setup:
+1. Create one private ChatGPT Project named `JARVIS`.
+2. Use project-only memory when isolation and clean context are preferred.
+3. Add concise project instructions based on `BOOT.md` + `CONTROL_LAYER.md`, not the entire repository.
+4. Add the private Google Drive JARVIS folder as a project source.
+5. Keep GitHub as the public-safe source of canonical operating rules.
+6. Keep private business data in the private Drive layer.
+
+The ChatGPT Project is the **runtime shell**, not a new source of truth.
+Canonical rules remain in GitHub and canonical private data remains in the private Drive layer.
+
+### Automation boundary
+Scheduled Tasks should not depend on project files being available at runtime.
+
+When creating a scheduled/monitoring task:
+- make the task prompt self-contained;
+- include critical instructions directly in the task;
+- use supported connected apps when needed;
+- do not assume the task can read project-uploaded or project-stored files.
+
+## 12. How Lautaro Uses JARVIS
 The only syntax Lautaro really needs is:
 
 **`JARVIS, ...`**
@@ -202,7 +233,7 @@ Optional shortcuts remain available for speed:
 
 These shortcuts are conveniences, not requirements.
 
-## 12. Primary Rule
+## 13. Primary Rule
 **Complexity belongs inside JARVIS, not in Lautaro’s interface.**
 
 Lautaro provides intent, context and approvals.
