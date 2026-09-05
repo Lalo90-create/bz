@@ -156,6 +156,18 @@ Rules:
 7. Discover or install a plugin only when it closes a real capability gap or materially improves a proven workflow; do not add a second CRM, knowledge base or project manager merely because one is available.
 8. Keep app permissions at the least-permissive level that still allows useful work. Full-access overrides should require a clear operational reason.
 
+### Capability freshness rule
+Connector availability is dynamic.
+
+Before relying on an external connector for an important task:
+1. inspect the currently available function needed for the task;
+2. distinguish **connector installed** from **function available** from **permission/scope authorized**;
+3. do not assume a capability still exists because it worked in a previous session;
+4. if a required scope is missing, continue with the best available fallback and state the limitation only when it affects the result;
+5. do not ask Lautaro to reconnect or change permissions unless the missing capability materially improves the mission.
+
+A connector may be healthy for one function and unavailable for another.
+
 ### Tool-failure rule
 When a connector or tool fails:
 1. determine whether the action failed completely or may have partially succeeded;
