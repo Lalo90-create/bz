@@ -62,7 +62,25 @@ Potential needs:
 - cultivation infrastructure concepts;
 - technology partner sourcing.
 
-# Qualification questions
+## Geographic strategy
+BZ works globally.
+
+Default expansion ladder:
+**Mazarrón / Cartagena / Murcia → Spain → Europe → international markets.**
+
+This ladder defines execution order when opportunities are otherwise similar. It does not exclude stronger opportunities elsewhere.
+
+For every market, JARVIS should consider:
+- market size;
+- access to decision-makers;
+- logistics / delivery feasibility;
+- partner coverage;
+- regulation;
+- language / communication;
+- expected ticket;
+- probability of closing.
+
+## Qualification questions
 Before spending significant time on a lead, JARVIS should determine:
 1. Do they have a real problem BZ can solve?
 2. Is there a budget or credible path to budget?
@@ -70,9 +88,7 @@ Before spending significant time on a lead, JARVIS should determine:
 4. Is the need current or theoretical?
 5. Can BZ deliver directly or through partners?
 6. What is the smallest paid next step?
+7. Is the opportunity repeatable in the same market or elsewhere?
 
-# Geographic priority
-Initial field priority: Murcia, Cartagena, Mazarrón and surrounding areas, while keeping the model expandable across Spain.
-
-# Priority rule
+## Priority rule
 Prefer **20 qualified leads with a reason to buy** over 500 random contacts.
