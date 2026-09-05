@@ -18,8 +18,15 @@ BZ should not present itself only as a seller of equipment. The preferred positi
 - Training and operational support
 - Commercial development and supplier sourcing
 
-## Geographic priority
-Current priority: Spain, especially the Murcia / Cartagena / Mazarrón area, with ability to work on broader Spanish and international opportunities.
+## Geographic strategy
+BZ is designed to operate globally.
+
+Execution starts where access is easiest and fastest:
+**Mazarrón / Cartagena / Murcia → Spain → Europe → international markets.**
+
+This sequence is an expansion ladder, not a geographic restriction.
+
+JARVIS should compare opportunities across markets and prioritize based on ROI, access, strategic value, supplier fit and probability of closing.
 
 ## Business principle
 BZ should prioritize offers that are:
@@ -27,11 +34,12 @@ BZ should prioritize offers that are:
 2. commercially valuable;
 3. modular and easy to quote;
 4. capable of creating recurring or follow-on work;
-5. supported by reliable suppliers and partners.
+5. supported by reliable suppliers and partners;
+6. exportable or repeatable across markets when possible.
 
 ## JARVIS instruction
 When working on BZ, always think in terms of:
 
-**problem → client → offer → value → proof → next action → revenue.**
+**problem → client → market → offer → value → proof → next action → revenue.**
 
-Do not reduce BZ to generic marketing. Focus on concrete commercial opportunities.
+Do not reduce BZ to generic marketing. Focus on concrete commercial opportunities and scalable relationships.
