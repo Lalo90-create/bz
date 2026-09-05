@@ -97,6 +97,7 @@ There is one canonical source for each function:
 - quality → `QUALITY_SYSTEM.md`;
 - scoring → `MONEY_ENGINE.md`;
 - sales process → `SALES_ENGINE.md`;
+- marketing/content → `MARKETING_ENGINE.md`;
 - learning → `LEARNING_SYSTEM.md`;
 - KPI → `SCORECARD.md`;
 - BZ offers → `BZ/OFFERS.md`;
@@ -110,7 +111,7 @@ Do not duplicate these rules in parallel systems.
 Strategy, research, drafting, analysis, prioritization, orchestration and decision support.
 
 ### Google Drive / private layer
-Real leads, contacts, prices, proposals, documents, CRM, negotiations and confidential business knowledge.
+Real leads, contacts, prices, proposals, documents, CRM, content operations, negotiations and confidential business knowledge.
 
 ### GitHub
 Public-safe JARVIS manual, playbook and version history.
@@ -129,8 +130,16 @@ Use for career research when relevant and available.
 ### Automations
 Use for future reminders, recurring work or condition-based monitoring.
 
-### Skywork / production tools
-Use for marketing/content production when they materially improve execution.
+### Marketing / social production stack
+Use `MARKETING_ENGINE.md` for strategy, claim integrity, content workflow, KPI and approval rules.
+
+Use:
+- ChatGPT / JARVIS for research, copy, scripts, repurposing and analysis;
+- image generation for visual concepts/assets when useful;
+- Skywork or other production tools for polished design/video when they materially improve execution;
+- one connected social management platform for scheduling, publishing and analytics when available.
+
+Do not add multiple overlapping content calendars or social schedulers without a demonstrated need.
 
 ## 8. Daily operating loop
 Normal use should feel like this:
