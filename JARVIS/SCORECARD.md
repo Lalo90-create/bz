@@ -1,75 +1,91 @@
-# JARVIS SCORECARD v1.1
+# JARVIS SCORECARD
 
-## Objective
-Measure whether JARVIS is producing real value and whether the AI stack is generating more value than it costs.
+## Obiettivo
+Misurare se JARVIS sta producendo valore reale e se lo stack AI genera più valore di quanto costa.
 
-## Core KPI
-Track weekly or monthly:
-- revenue generated;
-- qualified opportunities created;
-- conversations/meetings;
-- proposals;
-- sales closed;
-- hours saved;
-- reusable assets created;
-- processes improved;
-- AI skills learned.
+## KPI principali
+Traccia settimanalmente o mensilmente:
+- ricavi generati;
+- opportunità qualificate create;
+- conversazioni / meeting;
+- proposte;
+- vendite concluse;
+- ore risparmiate;
+- asset riutilizzabili creati;
+- processi migliorati;
+- competenze AI acquisite.
 
-## Keep the two business engines separate
+## Mantieni separati i due business engine
 
 ### BZ Consulting funnel
 **Lead → Qualified → Conversation → Audit/Discovery → Proposal → Project → Follow-on service**
 
-Track:
-- BZ qualified leads;
-- technical/commercial meetings;
-- proposals;
-- estimated pipeline value;
-- closed project revenue;
-- partnership/referral opportunities.
+Traccia:
+- lead BZ qualificati;
+- paese / mercato;
+- meeting tecnici/commerciali;
+- proposte;
+- pipeline stimata;
+- ricavi chiusi;
+- partnership/referral.
 
 ### Bazinga Lab / CSC funnel
 **Club → Qualified → Contact → Conversation → Small paid entry → Recurring service → Referral**
 
-Track:
-- CSC/club qualified leads;
-- personalized contacts;
-- replies;
-- meetings/conversations;
-- audits/training/menu/event/CRM pilots sold;
-- recurring clients;
-- referrals;
-- Bazinga revenue.
+Traccia:
+- CSC/club qualificati;
+- paese / mercato;
+- contatti personalizzati;
+- risposte;
+- meeting/conversazioni;
+- audit/training/menu/event/CRM pilot venduti;
+- clienti ricorrenti;
+- referral;
+- ricavi Bazinga.
 
-## Weekly table
-| Period | BZ Revenue € | Bazinga Revenue € | BZ Qualified Leads | CSC Qualified Leads | Meetings | Proposals / Paid Entries | Sales | Hours Saved | Assets | Skills |
+## Vista geografica
+JARVIS deve poter distinguere performance per:
+- area locale / Murcia;
+- Spagna;
+- Europa;
+- altri mercati globali.
+
+Questo serve a capire dove esiste il miglior rapporto tra accesso, conversione e valore.
+
+## Tabella settimanale
+| Periodo | BZ Revenue € | Bazinga Revenue € | BZ Qualified Leads | CSC Qualified Leads | Meetings | Proposals / Paid Entries | Sales | Hours Saved | Assets | Skills |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Week 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Fast Cash vs Big Projects
-Track both:
-- Fast Cash opportunities currently active;
-- Big Projects currently in pipeline;
-- estimated value;
-- nearest next action;
-- biggest blocker.
+Traccia entrambi:
+- Fast Cash attivo;
+- Big Projects in pipeline;
+- valore stimato;
+- mercato / paese;
+- prossima azione;
+- principale blocco.
 
 ## AI ROI
-When enough data exists:
+Quando esistono dati sufficienti:
 
-**AI ROI = (Economic value generated + declared value of time saved - AI tool cost) / AI tool cost**
+**AI ROI = (Valore economico generato + valore dichiarato del tempo risparmiato - costo strumenti AI) / costo strumenti AI**
 
-Do not invent the monetary value of saved time; use a declared assumption.
+Non inventare il valore economico del tempo risparmiato: usa un'ipotesi dichiarata.
 
-## Weekly review
-JARVIS should answer:
-1. Which engine produced more progress: BZ or Bazinga?
-2. What is closest to cash?
-3. Where is the funnel blocked?
-4. Which offer received the best response?
-5. What should be repeated, changed or stopped?
-6. What can be automated without adding unnecessary complexity?
+## Review settimanale
+JARVIS dovrebbe rispondere:
+1. Quale engine ha prodotto più progresso: BZ o Bazinga?
+2. Quale opportunità è più vicina al denaro?
+3. Dove è bloccato il funnel?
+4. Quale offerta riceve la risposta migliore?
+5. Quale mercato sta convertendo meglio?
+6. Cosa ripetere, modificare o fermare?
+7. Cosa automatizzare senza aggiungere complessità inutile?
 
-## Rule
-Do not optimize vanity metrics like number of posts, prompts or documents.
-Measure primarily revenue, conversion, qualified opportunities, time saved and reusable capability.
+## Regola
+Non ottimizzare vanity metrics come numero di post, prompt o documenti.
+Misura soprattutto:
+**ricavi, conversione, opportunità qualificate, tempo risparmiato e capacità riutilizzabili.**
+
+GitHub conserva la cronologia: questo file rappresenta sempre lo stato corrente, senza copie versionate.
