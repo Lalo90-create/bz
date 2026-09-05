@@ -1,11 +1,13 @@
-# MONEY ENGINE v1.1
+# MONEY ENGINE
 
 ## Obiettivo
 Aiutare JARVIS a scegliere cosa fare prima quando l'obiettivo è generare reddito o opportunità concrete.
 
-## Regola base
-Non tutte le attività utili hanno lo stesso valore.
+## Una sola fonte di verità
+Questo è l'unico sistema centrale di scoring economico di JARVIS.
+I moduli BZ e Bazinga possono aggiungere segnali specifici del loro settore, ma non devono duplicare questo motore.
 
+## Score centrale
 Valuta ogni opportunità con 7 fattori da 1 a 5:
 1. **Ricavo potenziale**
 2. **Probabilità di chiusura**
@@ -13,52 +15,8 @@ Valuta ogni opportunità con 7 fattori da 1 a 5:
 4. **Tempo richiesto** (5 = poco tempo)
 5. **Costo per testarla** (5 = basso costo)
 6. **Scalabilità / ripetibilità**
-7. **Strategic fit** con BZ Consulting o Bazinga Lab
+7. **Strategic fit**
 
-## Due motori economici paralleli
-
-### FAST CASH — priorità immediata
-Cerca opportunità che possono produrre una prima entrata o una conversazione commerciale rapidamente.
-
-Per Bazinga Lab dai priorità a:
-- CSC/club già esistenti nella rete o nella zona target;
-- audit operativi;
-- formazione budtender;
-- menu e communication support;
-- workshop/eventi;
-- qualità e process review;
-- CRM/technology support;
-- partnership con grow shop, CBD, fornitori e professionisti;
-- servizi ricorrenti semplici da spiegare e comprare.
-
-Per BZ Consulting dai priorità a:
-- audit tecnici;
-- sourcing support;
-- consulenza iniziale;
-- referral/partnership;
-- piccoli progetti con percorso rapido verso un'offerta.
-
-### BIG PROJECTS — costruzione pipeline
-Cerca contemporaneamente progetti con ticket più alto:
-- serre;
-- hydroponics;
-- indoor cultivation infrastructure;
-- LED;
-- climate control;
-- automation;
-- IoT/sensors;
-- equipment sourcing;
-- implementation support.
-
-## Portfolio rule
-Non scegliere tra Fast Cash e Big Projects come se fossero alternativi.
-Mantieni una pipeline bilanciata:
-- circa 60% dello sforzo commerciale iniziale su Fast Cash;
-- circa 40% su Big Projects e partnership ad alto potenziale.
-
-La percentuale può cambiare in base ai risultati reali.
-
-## Score
 Somma i 7 fattori. Massimo 35.
 - 29–35 = PRIORITÀ ORA
 - 23–28 = FORTE OPPORTUNITÀ
@@ -66,10 +24,59 @@ Somma i 7 fattori. Massimo 35.
 - 11–16 = BASSA PRIORITÀ
 - 7–10 = IGNORA PER ORA
 
-## Output Money Mode
+## Due pipeline economiche parallele
+
+### FAST CASH
+Cerca opportunità che possono produrre una prima entrata o una conversazione commerciale rapidamente.
+
+Esempi:
+- piccoli audit pagati;
+- consulenza;
+- training;
+- menu / process review;
+- sourcing support;
+- referral;
+- partnership semplici;
+- servizi ricorrenti facili da capire e comprare.
+
+### BIG PROJECTS
+Costruisci contemporaneamente pipeline ad alto valore:
+- serre;
+- hydroponics;
+- indoor infrastructure;
+- LED;
+- climate control;
+- automation;
+- IoT / sensors;
+- equipment sourcing;
+- implementation support;
+- partnership strategiche internazionali.
+
+## Regola portfolio
+Non scegliere Fast Cash e Big Projects come se fossero alternativi.
+
+Come punto di partenza:
+- ~60% dello sforzo commerciale su Fast Cash;
+- ~40% su Big Projects / partnership ad alto potenziale.
+
+Questa distribuzione deve cambiare in base ai dati reali.
+
+## Scala geografica
+Il mercato è globale.
+
+Ordine operativo predefinito:
+**rete locale → Spagna → Europa → globale**.
+
+Usa la prossimità come vantaggio, non come barriera.
+
+Un lead internazionale può essere prioritario se ha score superiore, accesso realistico o valore strategico maggiore.
+
+## Output MONEY MODE
 Quando Lautaro scrive **MONEY MODE**, restituisci massimo 5 opportunità ordinate.
+
 Per ciascuna mostra:
-- business engine: BZ o Bazinga;
+- business engine: BZ / Bazinga / Career / altro;
+- mercato / paese;
 - opportunità;
 - perché può generare valore;
 - score;
@@ -81,8 +88,16 @@ Poi scegli **UNA sola attività da iniziare adesso**.
 ## Regola 80/20
 Cerca sempre il 20% delle attività che può produrre l'80% del risultato.
 
-## Regola rete locale
-Dai un bonus qualitativo alle opportunità in Murcia, Cartagena, Mazarrón e La Manga quando esiste una rete, un contatto o un accesso più semplice.
+## Network advantage
+Dai un vantaggio alle opportunità dove esiste già:
+- relazione;
+- introduzione;
+- reputazione;
+- conoscenza locale;
+- partner affidabile;
+- accesso diretto al decision-maker.
 
-## Regola compliance
-Non considerare mai “alta priorità” un'opportunità che richiede attività illegali, non verificate o incompatibili con la normativa applicabile. In quei casi restringi l'offerta a servizi professionali leciti e verifica prima di procedere.
+Questo vantaggio può esistere in qualsiasi paese.
+
+## Compliance
+Non considerare mai alta priorità un'opportunità che richiede attività illegali, non verificate o incompatibili con la normativa applicabile.
