@@ -183,35 +183,42 @@ When improving JARVIS itself:
 7. verify that the change makes JARVIS easier, more reliable or more valuable.
 
 ## 11. Runtime Shell — ChatGPT Project
-The preferred daily runtime for JARVIS is a dedicated private ChatGPT Project named **JARVIS**.
+The preferred daily runtime for JARVIS is one dedicated private ChatGPT Project named **JARVIS**.
 
-Why:
-- project instructions keep JARVIS behavior consistent;
-- project chats preserve ongoing context;
-- project memory supports continuity;
-- Google Drive sources can be added to the project;
-- connected apps can be used inside project chats;
-- the system can evolve without rebuilding a static assistant from scratch.
+The project is the user-facing workspace. It is not a new source of truth.
 
-Recommended project setup:
+### Recommended configuration
 1. Create one private ChatGPT Project named `JARVIS`.
-2. Use project-only memory when isolation and clean context are preferred.
-3. Add concise project instructions based on `BOOT.md` + `CONTROL_LAYER.md`, not the entire repository.
-4. Add the private Google Drive JARVIS folder as a project source.
-5. Keep GitHub as the public-safe source of canonical operating rules.
-6. Keep private business data in the private Drive layer.
+2. In account settings, keep **Reference saved memories** and **Reference chat history** enabled so project memory is available.
+3. In Project settings → Memory, select **Project-only memory** for a clean isolated JARVIS workspace.
+4. Put JARVIS behavior text in **Project instructions** — never in the Memory selector.
+5. Move the current JARVIS-building conversation into the project so its history becomes available inside the isolated project.
+6. Move other past chats into JARVIS only when they contain durable context worth preserving; do not import unrelated conversation history.
+7. Add the private Google Drive JARVIS file/folder link as a project source. Google Drive access inside a project is live access, not a guaranteed pre-synced index.
+8. Use connected apps such as Google Drive and GitHub inside project chats when the task requires them.
+9. Keep GitHub as the public-safe canonical home of operating rules and methods.
+10. Keep private leads, contacts, prices, margins, documents and negotiations in the private Drive layer.
 
-The ChatGPT Project is the **runtime shell**, not a new source of truth.
-Canonical rules remain in GitHub and canonical private data remains in the private Drive layer.
+### Why Project-only memory
+Project-only memory keeps JARVIS focused:
+- chats can reference other chats in the same JARVIS project;
+- project context does not leak into unrelated chats;
+- unrelated saved memories and outside conversations do not silently affect JARVIS.
+
+Trade-off: previously saved memories and outside chats are not referenced inside the project. Therefore important existing context should be migrated deliberately by moving relevant chats or placing durable facts in canonical project/private sources.
+
+### Instruction precedence
+Project instructions apply only inside JARVIS and override global custom instructions there.
+Keep project instructions concise and use GitHub/Drive as the detailed sources of truth rather than copying the entire operating system into the instruction field.
 
 ### Automation boundary
-Scheduled Tasks should not depend on project files being available at runtime.
+Scheduled Tasks created from a project must not depend on project files being available at runtime.
 
-When creating a scheduled/monitoring task:
+When creating a scheduled or monitoring task:
 - make the task prompt self-contained;
 - include critical instructions directly in the task;
 - use supported connected apps when needed;
-- do not assume the task can read project-uploaded or project-stored files.
+- do not assume the task can read project files.
 
 ## 12. How Lautaro Uses JARVIS
 The only syntax Lautaro really needs is:
