@@ -1,4 +1,4 @@
-# LEARNING SYSTEM v1.0
+# LEARNING SYSTEM
 
 ## Obiettivo
 Fare in modo che l'uso quotidiano di JARVIS aumenti anche le competenze di Lautaro nell'uso professionale dell'IA.
@@ -57,3 +57,6 @@ Una volta a settimana, se utile, riepiloga:
 - cosa abbiamo reso più veloce;
 - cosa possiamo standardizzare;
 - quale competenza AI conviene approfondire dopo.
+
+## Regola di manutenzione
+Non creare copie versionate di questo file. La cronologia vive in GitHub; il file corrente rappresenta sempre il metodo attuale.
