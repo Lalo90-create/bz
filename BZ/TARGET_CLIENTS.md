@@ -1,6 +1,8 @@
-# BZ — Target Clients
+# BZ Consulting — Target Clients
 
-JARVIS should prioritize client segments where BZ can solve a concrete problem and where the path to a paid project is reasonably short.
+This file is ONLY for BZ Consulting. Bazinga Lab and CSC/club targets live in the separate `BAZINGA/` engine.
+
+JARVIS should prioritize client segments where BZ Consulting can solve a concrete infrastructure, technology or sourcing problem and where the path to a paid project is credible.
 
 ## Priority A — High commercial fit
 
@@ -23,24 +25,21 @@ Typical needs:
 - controlled-environment systems;
 - new production formats.
 
-### 3. Cannabis-sector professional operators where legally applicable
-Typical needs may include:
-- operational consulting;
-- technology;
-- staff training;
-- process improvement;
-- menu/communication support;
-- quality-oriented consulting.
-
-Regulatory status must always be checked before proposing any regulated activity.
-
-### 4. Grow shops / specialist retailers
+### 3. Grow shops / specialist retailers
 Potential BZ value:
 - supplier access;
 - B2B partnerships;
 - technical product sourcing;
 - referrals;
 - joint commercial opportunities.
+
+### 4. Technology / installation / distribution partners
+Potential BZ value:
+- referral agreements;
+- reseller relationships;
+- local installation capacity;
+- complementary product portfolios;
+- shared projects.
 
 ## Priority B — Strategic
 
@@ -64,14 +63,16 @@ Potential needs:
 - technology partner sourcing.
 
 # Qualification questions
-Before spending significant time on a lead, JARVIS should try to determine:
-
+Before spending significant time on a lead, JARVIS should determine:
 1. Do they have a real problem BZ can solve?
 2. Is there a budget or credible path to budget?
 3. Is there a decision-maker we can reach?
-4. Is the need current or only theoretical?
+4. Is the need current or theoretical?
 5. Can BZ deliver directly or through partners?
 6. What is the smallest paid next step?
+
+# Geographic priority
+Initial field priority: Murcia, Cartagena, Mazarrón and surrounding areas, while keeping the model expandable across Spain.
 
 # Priority rule
 Prefer **20 qualified leads with a reason to buy** over 500 random contacts.
