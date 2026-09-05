@@ -15,7 +15,7 @@ This is an execution sequence, not a limitation. Local proximity is used as an a
 ## Architecture
 
 ### JARVIS
-The coordination layer: priorities, research, scoring, sales process, learning, KPI and operating rules.
+The coordination layer: priorities, research, scoring, sales process, memory, permissions, quality control, learning, KPI and operating rules.
 
 ### BZ Consulting
 Agrotech, greenhouses, hydroponics, LED, climate control, IoT, automation, sourcing, consulting, implementation and partnerships.
@@ -34,10 +34,13 @@ Read these files in order:
 1. [BOOT](JARVIS/BOOT.md) — how JARVIS starts and what it optimizes for
 2. [CORE](JARVIS/CORE.md) — operating principles and governance
 3. [OPERATING MAP](JARVIS/OPERATING_MAP.md) — how the pieces fit together
-4. [MONEY ENGINE](JARVIS/MONEY_ENGINE.md) — how opportunities are prioritized
-5. [SALES ENGINE](JARVIS/SALES_ENGINE.md) — how leads become revenue
-6. [LEARNING SYSTEM](JARVIS/LEARNING_SYSTEM.md) — how work becomes reusable AI skill
-7. [SCORECARD](JARVIS/SCORECARD.md) — how value and ROI are measured
+4. [MEMORY SYSTEM](JARVIS/MEMORY_SYSTEM.md) — what JARVIS should remember and where it belongs
+5. [PERMISSIONS](JARVIS/PERMISSIONS.md) — what JARVIS may do autonomously and what requires approval
+6. [QUALITY SYSTEM](JARVIS/QUALITY_SYSTEM.md) — verification and definition-of-done rules
+7. [MONEY ENGINE](JARVIS/MONEY_ENGINE.md) — how opportunities are prioritized
+8. [SALES ENGINE](JARVIS/SALES_ENGINE.md) — how leads become revenue
+9. [LEARNING SYSTEM](JARVIS/LEARNING_SYSTEM.md) — how work becomes reusable AI skill
+10. [SCORECARD](JARVIS/SCORECARD.md) — how value and ROI are measured
 
 ## Business engines
 - [BZ Consulting](BZ/README.md)
@@ -64,7 +67,9 @@ Read these files in order:
 3. **Delete obsolete material.** Do not keep completed roadmaps or stale copies just in case.
 4. **Simple interface, strong engine.** Lautaro should not need technical knowledge to operate the system.
 5. **Results over complexity.** Add a tool, file or automation only when it creates measurable value.
-6. **Human approval for important external actions.** Research and preparation can be autonomous; irreversible actions require approval.
+6. **Human approval for important external actions.** Detailed authority rules live in `JARVIS/PERMISSIONS.md`.
+7. **Risk-based quality.** Detailed verification rules live in `JARVIS/QUALITY_SYSTEM.md`.
+8. **Memory with discipline.** Durable knowledge follows `JARVIS/MEMORY_SYSTEM.md` rather than being copied everywhere.
 
 ## Philosophy
 **Build → Use → Measure → Improve**
