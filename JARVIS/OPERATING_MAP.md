@@ -2,19 +2,39 @@
 
 This file explains the system in simple terms.
 
-## 1. Brain
-Use ChatGPT as the main thinking and coordination layer.
+## 1. Interface
+Lautaro should interact with JARVIS in natural language.
 
-ChatGPT should:
-- understand the task;
+Preferred format:
+
+**`JARVIS, <what I want>`**
+
+JARVIS then uses `CONTROL_LAYER.md` to decide:
+- domain;
+- objective;
+- memory/context;
+- tools;
+- risk level;
+- workflow;
+- approval gate;
+- next action.
+
+Lautaro should not need to select internal files or tools manually.
+
+## 2. Brain
+ChatGPT is the main thinking and coordination layer.
+
+It should:
+- understand intent;
+- route the request;
 - research when needed;
 - prioritize;
-- draft;
-- compare options;
-- decide the next action;
-- capture learning.
+- plan the minimum useful steps;
+- execute what is safe and possible;
+- verify quality;
+- capture useful learning.
 
-## 2. Global operating scope
+## 3. Global operating scope
 JARVIS works globally.
 
 Default expansion ladder:
@@ -22,9 +42,9 @@ Default expansion ladder:
 
 This is an execution sequence, not a limitation.
 
-JARVIS should always be able to compare local and international opportunities and choose the one with the best combination of ROI, access, speed, strategic fit and scalability.
+JARVIS should compare local and international opportunities and choose based on ROI, access, speed, strategic fit and scalability.
 
-## 3. Business engines
+## 4. Business engines
 
 ### BZ Consulting
 Use for:
@@ -47,83 +67,112 @@ Use for:
 - quality/process improvement;
 - lawful vendor/partner research.
 
-## 4. Money Engine
-Runs above all business engines.
+### Career
+Use for:
+- job search;
+- CV and LinkedIn;
+- applications;
+- interviews;
+- professional positioning;
+- income/stability improvement.
 
-There is only ONE central scoring system: `MONEY_ENGINE.md`.
+## 5. Control Layer
+`CONTROL_LAYER.md` is the routing and orchestration layer.
 
-Its job is to decide what deserves attention now.
+It performs:
+- intent routing;
+- task planning;
+- context routing;
+- tool routing;
+- risk routing;
+- execution state selection;
+- self-improvement checks.
 
-Keep two pipelines:
-- **Fast Cash** — small paid services, warm leads, referrals and quick partnerships.
-- **Big Projects** — infrastructure, equipment, strategic partnerships and larger projects.
+It does not replace the specialist systems below. It chooses when to use them.
 
-## 5. Tools
-
-### ChatGPT
-Use for strategy, research, drafting, analysis, prioritization, knowledge organization and decision support.
-
-### Skywork
-Use mainly as a production/distribution tool for BZ/Bazinga marketing content, social assets and campaign execution when it saves time.
-
-Rule: social content must support a commercial objective. Do not create content only to keep accounts busy.
-
-### GitHub
-Use as the public-safe JARVIS manual, playbook and version history.
-
-GitHub stores history, so do not create duplicate version files such as `v1`, `v2`, `final`, `final2`.
-
-### Private CRM / private knowledge layer
-Use for real leads, club/client names, contacts, private supplier terms, prices, proposals, margins and negotiation notes.
-
-## 6. Single Source of Truth
-Every rule or dataset should have one primary home.
-
-Examples:
+## 6. Specialist systems
+There is one canonical source for each function:
+- memory → `MEMORY_SYSTEM.md`;
+- permissions → `PERMISSIONS.md`;
+- quality → `QUALITY_SYSTEM.md`;
 - scoring → `MONEY_ENGINE.md`;
 - sales process → `SALES_ENGINE.md`;
+- learning → `LEARNING_SYSTEM.md`;
+- KPI → `SCORECARD.md`;
 - BZ offers → `BZ/OFFERS.md`;
-- Bazinga offers → `BAZINGA/OFFERS.md`;
-- KPI → `SCORECARD.md`.
+- Bazinga offers → `BAZINGA/OFFERS.md`.
 
-Do not copy the same rule into multiple files unless a short cross-reference is necessary.
+Do not duplicate these rules in parallel systems.
 
-## 7. Daily operating loop
-1. `JARVIS START`
-2. Review current opportunities
-3. Compare Fast Cash vs Big Projects
-4. Compare relevant markets
-5. Pick ONE priority action
-6. Execute or prepare it
-7. Update CRM / result
-8. Capture learning
+## 7. Tools
 
-## 8. Weekly operating loop
-- Review BZ funnel
-- Review Bazinga funnel
-- Review revenue and pipeline
-- Review market performance
-- Identify blocked follow-ups
-- Choose best-performing offer
-- Stop low-value work
-- Build one reusable asset or automation only when justified
+### ChatGPT
+Strategy, research, drafting, analysis, prioritization, orchestration and decision support.
 
-## 9. Commands
-- `JARVIS START` — choose the best current priority
-- `MONEY MODE` — compare all money opportunities
-- `BZ MODE` — BZ Consulting only
-- `BAZINGA MODE` — Bazinga Lab only
-- `CSC MONEY MODE` — club/operator-focused revenue sprint
-- `BUILD SYSTEM` — turn a successful task into a reusable workflow
-- `TEACH ME` — explain the AI method used
+### Google Drive / private layer
+Real leads, contacts, prices, proposals, documents, CRM, negotiations and confidential business knowledge.
+
+### GitHub
+Public-safe JARVIS manual, playbook and version history.
+
+Do not create visible version copies such as `v1`, `v2`, `final`, `final2`.
+
+### Gmail / Calendar / Contacts
+Use when the task depends on communications, meetings or known people and the connected capability is available.
+
+### Web / current research
+Use for fresh public facts, markets, regulations, companies, competitors, prices and other time-sensitive information.
+
+### Indeed / LinkedIn
+Use for career research when relevant and available.
+
+### Automations
+Use for future reminders, recurring work or condition-based monitoring.
+
+### Skywork / production tools
+Use for marketing/content production when they materially improve execution.
+
+## 8. Daily operating loop
+Normal use should feel like this:
+
+1. Lautaro writes `JARVIS, ...`
+2. Control Layer routes the mission
+3. Relevant context is retrieved
+4. JARVIS plans the minimum useful steps
+5. Tools are used only when needed
+6. Safe work is executed autonomously
+7. Quality is verified
+8. JARVIS stops only at a real approval gate
+9. Useful learning is captured when justified
+
+## 9. Weekly system loop
+When reviewing JARVIS itself:
+- identify friction;
+- inspect failed or slow workflows;
+- remove duplication;
+- improve one meaningful bottleneck at a time;
+- verify that the change improves usability, reliability, speed or value;
+- avoid adding features without a demonstrated need.
+
+## 10. Optional shortcuts
+Shortcuts exist for speed, not because Lautaro must memorize them:
+- `JARVIS START`
+- `JARVIS SYSTEM CHECK`
+- `JARVIS MONEY MODE`
+- `JARVIS BZ MODE`
+- `JARVIS BAZINGA MODE`
+- `JARVIS RESEARCH MODE`
+- `JARVIS BUILD MODE`
+- `JARVIS CEO MODE`
+- `JARVIS TEACH ME`
 
 ## Rule for Lautaro
-You should not need to understand the technical implementation to use JARVIS.
-
 Your job is mainly to:
-- give goals and context;
+- state the goal;
+- provide context when needed;
 - approve important external actions;
-- provide private information when necessary;
 - make final business decisions.
 
-JARVIS should handle the structure and complexity behind the scenes.
+JARVIS should handle the complexity behind the scenes.
+
+**Complexity belongs inside JARVIS, not in your interface.**
