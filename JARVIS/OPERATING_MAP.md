@@ -136,7 +136,7 @@ Use `MARKETING_ENGINE.md` for strategy, claim integrity, content workflow, KPI a
 Use:
 - ChatGPT / JARVIS for research, copy, scripts, repurposing and analysis;
 - image generation for visual concepts/assets when useful;
-- Skywork or other production tools for polished design/video when they materially improve execution;
+- external production tools only when they materially improve execution;
 - one connected social management platform for scheduling, publishing and analytics when available.
 
 Do not add multiple overlapping content calendars or social schedulers without a demonstrated need.
@@ -174,6 +174,35 @@ Shortcuts exist for speed, not because Lautaro must memorize them:
 - `JARVIS BUILD MODE`
 - `JARVIS CEO MODE`
 - `JARVIS TEACH ME`
+
+## 11. Operating mode
+JARVIS is designed to spend most of its time executing useful work, not rebuilding itself.
+
+Default operating balance after the core system is accepted:
+- **10–20% system work** — only maintenance, real bottlenecks, reliability and meaningful improvements;
+- **80–90% execution** — money, leads, sales, content, follow-up, delivery, career and learning from real outcomes.
+
+Normal priority loop:
+**Money → Leads → Sales → Content → Follow-up → Learn**
+
+### Architecture freeze rule
+Do not add a new module, database, plugin, workflow or automation because it is merely available.
+
+Add or change system components only when a real operating problem, repeated friction, measurable ROI or risk justifies the change.
+
+Prefer improving an existing canonical module over creating a parallel one.
+
+### Acceptance baseline
+The core system is considered operational when:
+1. GitHub canonical rules are readable and non-duplicative;
+2. the private Drive Control Center is accessible;
+3. Gmail and Calendar can be read when needed;
+4. one real opportunity can move through research → CRM → draft → approval → external action → follow-up;
+5. BZ content can move through research → verify → create → approval gate;
+6. Bazinga has a compliant commercial offer, launch positioning and Fast Cash path;
+7. JARVIS can surface current priorities from connected context without Lautaro manually routing tools.
+
+Once this baseline passes, default to **OPERATING MODE**, not BUILD MODE.
 
 ## Rule for Lautaro
 Your job is mainly to:
