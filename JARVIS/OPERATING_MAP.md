@@ -97,11 +97,14 @@ There is one canonical source for each function:
 - quality → `QUALITY_SYSTEM.md`;
 - scoring → `MONEY_ENGINE.md`;
 - sales process → `SALES_ENGINE.md`;
-- marketing/content → `MARKETING_ENGINE.md`;
+- marketing/content strategy → `MARKETING_ENGINE.md`;
+- visual/video production → `CREATIVE_PRODUCTION_ENGINE.md`;
 - learning → `LEARNING_SYSTEM.md`;
 - KPI → `SCORECARD.md`;
 - BZ offers → `BZ/OFFERS.md`;
 - Bazinga offers → `BAZINGA/OFFERS.md`.
+
+`MARKETING_ENGINE.md` decides why/what to communicate. `CREATIVE_PRODUCTION_ENGINE.md` decides how the visual/video asset is produced, quality-controlled, organized and made reusable.
 
 Do not duplicate these rules in parallel systems.
 
@@ -111,7 +114,7 @@ Do not duplicate these rules in parallel systems.
 Strategy, research, drafting, analysis, prioritization, orchestration and decision support.
 
 ### Google Drive / private layer
-Real leads, contacts, prices, proposals, documents, CRM, content operations, negotiations and confidential business knowledge.
+Real leads, contacts, prices, proposals, documents, CRM, content operations, negotiations, brand masters and confidential business knowledge.
 
 ### GitHub
 Public-safe JARVIS manual, playbook and version history.
@@ -130,14 +133,21 @@ Use for career research when relevant and available.
 ### Automations
 Use for future reminders, recurring work or condition-based monitoring.
 
-### Marketing / social production stack
-Use `MARKETING_ENGINE.md` for strategy, claim integrity, content workflow, KPI and approval rules.
+### Marketing / creative production stack
+Use `MARKETING_ENGINE.md` for strategy, claim integrity, business objective, KPI and publishing rules.
 
-Use:
-- ChatGPT / JARVIS for research, copy, scripts, repurposing and analysis;
-- image generation for visual concepts/assets when useful;
-- external production tools only when they materially improve execution;
-- one connected social management platform for scheduling, publishing and analytics when available.
+Use `CREATIVE_PRODUCTION_ENGINE.md` for art direction, image/video production, brand asset handling, creative QA and the reusable asset library.
+
+Preferred stack inside the ChatGPT ecosystem:
+- ChatGPT / JARVIS for research, copy, scripts, storyboards, repurposing, orchestration and QA;
+- built-in image generation for raw visual creation and image editing;
+- Canva when connected for exact typography, official-logo placement, editable design assembly, reusable templates and supported video/design editing;
+- a capable connected ChatGPT video-generation/editing plugin when motion production materially benefits from it;
+- one connected social management platform for scheduling, publishing and analytics when available;
+- Google Drive for private master assets and ready-to-use library files;
+- Control Center as the single operational content tracker.
+
+Never regenerate an official brand logo with an image model when the original master asset exists or is required.
 
 Do not add multiple overlapping content calendars or social schedulers without a demonstrated need.
 
@@ -170,6 +180,7 @@ Shortcuts exist for speed, not because Lautaro must memorize them:
 - `JARVIS MONEY MODE`
 - `JARVIS BZ MODE`
 - `JARVIS BAZINGA MODE`
+- `JARVIS CREATIVE MODE`
 - `JARVIS RESEARCH MODE`
 - `JARVIS BUILD MODE`
 - `JARVIS CEO MODE`
@@ -198,7 +209,7 @@ The core system is considered operational when:
 2. the private Drive Control Center is accessible;
 3. Gmail and Calendar can be read when needed;
 4. one real opportunity can move through research → CRM → draft → approval → external action → follow-up;
-5. BZ content can move through research → verify → create → approval gate;
+5. BZ content can move through research → verify → creative production → approval gate;
 6. Bazinga has a compliant commercial offer, launch positioning and Fast Cash path;
 7. JARVIS can surface current priorities from connected context without Lautaro manually routing tools.
 
