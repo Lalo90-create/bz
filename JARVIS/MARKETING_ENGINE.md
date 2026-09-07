@@ -10,6 +10,8 @@ Marketing is not a vanity activity. Content should serve a measurable business o
 
 Do not create content merely to remain active on social media.
 
+Visual, image, motion and video execution is governed by `CREATIVE_PRODUCTION_ENGINE.md`. Marketing decides **why and what** should be communicated; Creative Production decides **how the visual/video asset is produced, assembled, quality-controlled and stored**.
+
 ## 1. Brand separation
 BZ Consulting and Bazinga Lab remain separate brands.
 
@@ -85,6 +87,8 @@ Examples:
 - interview;
 - webinar / workshop outline.
 
+When the deliverable includes visual design, image generation, carousel assembly, video, motion graphics, editing, thumbnails/covers or reusable creative assets, route production through `CREATIVE_PRODUCTION_ENGINE.md` once the brief and material claims are stable.
+
 ### Adapt
 Repurpose the core asset for the relevant channels instead of recreating the idea from zero.
 Possible outputs:
@@ -151,6 +155,8 @@ The private JARVIS Control Center is the canonical operational content tracker.
 
 Do not create a second parallel content database unless a new tool becomes the execution system and there is a clear sync rule.
 
+The private Drive Creative Studio is the asset library, not a second tracker. It stores master brand assets, editable sources, reusable components and ready-to-use visual/video production files according to `CREATIVE_PRODUCTION_ENGINE.md`.
+
 The social management platform is primarily for:
 - scheduling / publishing;
 - channel-level analytics;
@@ -161,12 +167,13 @@ JARVIS should summarize useful performance back into the canonical operating vie
 ## 8. Tools
 Use the minimum useful stack.
 
-- **ChatGPT / JARVIS** — strategy, research, hooks, copy, scripts, repurposing, analysis and learning.
+- **ChatGPT / JARVIS** — strategy, research, hooks, copy, scripts, storyboards, repurposing, analysis and learning.
 - **Web research** — current facts, trends, competitors and sources.
-- **Image generation** — visual concepts/assets when useful.
-- **Skywork / production tools** — polished design/video production when they materially improve execution.
+- **Built-in image generation** — raw visual concepts/assets and image editing when useful; do not recreate protected official logos.
+- **Canva connector** — deterministic design assembly, exact text, official-logo placement, editable templates and supported design/video editing when available.
+- **Connected ChatGPT video-generation/editing plugin** — advanced motion/video generation when connected and materially useful.
 - **Connected social management tool** — scheduling, publishing and analytics when available.
-- **Google Drive / Control Center** — private content pipeline and supporting business context.
+- **Google Drive / Control Center** — private creative library, content pipeline and supporting business context.
 
 Do not add multiple overlapping social schedulers, content calendars or project managers without a demonstrated need.
 
@@ -206,6 +213,7 @@ Before content is ready for approval:
 - the content gives useful information before asking for something;
 - the CTA matches the objective;
 - brand and tone are correct;
+- visual/video production has passed `CREATIVE_PRODUCTION_ENGINE.md` QA when applicable;
 - sensitive/private data is excluded;
 - regulated claims are checked where needed;
 - the format fits the platform;
@@ -216,19 +224,21 @@ After enough real content has been published, review:
 - which topics create qualified attention;
 - which formats create completion and saves;
 - which CTAs create conversations/leads;
+- which visual/motion patterns improve performance without damaging brand consistency;
 - which platforms create business value;
 - which content costs too much time for too little return.
 
 Then double down on what works and stop low-value activity.
 
-Do not change the marketing system after every post. Use patterns across enough real outcomes to justify a change.
+Do not change the marketing or visual identity system after every post. Use patterns across enough real outcomes to justify a change.
 
 ## 12. Definition of Done
 A marketing task is done when:
 1. the intended business objective is defined;
 2. material claims are verified;
 3. the content is prepared in the required formats;
-4. publishing approval is obtained when required;
-5. publication state is verified when executed;
-6. performance can be measured;
-7. useful learning is captured after enough data exists.
+4. visual/video assets pass the Creative Production quality gate when applicable;
+5. publishing approval is obtained when required;
+6. publication state is verified when executed;
+7. performance can be measured;
+8. useful learning is captured after enough data exists.
