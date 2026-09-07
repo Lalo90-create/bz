@@ -52,17 +52,32 @@ Prepares platform variants, filenames, captions, thumbnails/covers and schedulin
 Uses real channel data to identify what to repeat, vary, retire or test next.
 
 ## 2. BZ Brand Asset Lock — non-negotiable
-BZ has two official original logo variants supplied by Lautaro.
+The two original BZ logo files supplied by Lautaro are the only approved master variants:
+
+| Logical reference | Approved original | Select for |
+| --- | --- | --- |
+| `BZ_LOGO_WHITE_ON_DARK` | White logo on its supplied black/dark background | Black or dark placement area |
+| `BZ_LOGO_BLACK_ON_LIGHT` | Black logo on its supplied white/light background | White or light placement area |
+
+These are descriptive references, not filenames or instructions to generate variants. Preserve each supplied file's actual colors and background; the labels do not authorize color normalization, background removal or a transparent derivative.
 
 Rules:
-1. The official BZ logos are protected master assets.
-2. Never ask an image model to redraw, reinterpret, approximate, stylize or invent the BZ logo.
-3. Never treat an AI-generated logo-like mark as BZ branding.
-4. The final publishable asset must use an exact official logo file when a logo is required.
-5. If the original logo file cannot be confidently located, leave a reserved logo-safe area or use a temporary internal placeholder; do not fabricate a logo.
-6. Do not distort aspect ratio, crop the mark, alter geometry or recolor it outside an approved official variant.
-7. Store approved originals in `00_MASTER_BRAND_ASSETS` and label them clearly as master assets.
-8. Logo replacement happens during deterministic assembly/editing, not during generative image creation whenever the tool permits.
+1. Use the exact approved original file whenever a BZ logo is required. A generated lookalike, reconstructed vector or screenshot of a preview is not a substitute master.
+2. Never redraw, trace, retype, reinterpret, approximate, stylize or generatively reconstruct the BZ mark, including the BZ lettering, “consulting” text and leaf/symbol.
+3. Never invert, recolor, tint or filter a logo, including to obtain the opposite variant. Retrieve the other approved original instead.
+4. Preserve proportions, geometry, composition and internal spacing. Do not stretch, crop, detach or rearrange logo elements. Only proportional resizing and placement of the intact asset are allowed.
+5. Insert the master as a separate protected layer during deterministic Canva assembly. Never ask a generative tool to place, replace, animate or repair the logo, or send a master or logo-bearing composition through generative image/video processing.
+6. A missing or unsuitable master blocks logo-required final assembly and production-ready status. Unbranded scene work and clearly marked internal drafts with a reserved logo-safe area may continue; placeholders must never reach a publishable export.
+
+### Contrast selection
+Choose the master by the actual area behind the logo: white-on-dark for black/dark areas; black-on-light for white/light areas. Switch by selecting the other original file, never by modifying the current one.
+
+For mixed, busy or changing backgrounds, adjust the layout/scene or use a solid matching black or white panel behind the intact master. Preserve any background already embedded in the supplied file. Check readability at delivery size and across every video segment where the logo appears; if neither variant works, change the composition rather than the mark.
+
+### Private master storage
+The canonical home for both originals is the private Google Drive folder `00_MASTER_BRAND_ASSETS`. Preserve the original files and keep their identification, approval provenance and mapping to the logical references in the private layer.
+
+The public repository contains only operating rules and public-safe logical references. Never commit logo binaries, brand master/vector files, embedded image data, private Drive IDs, access URLs or confidential asset metadata. Canva imports are production working copies; Drive remains the master source of truth.
 
 ### Generated-image text rule
 Generative imagery is best used for scene/background/illustration layers. Critical copy, logos and exact technical numbers should preferably be applied in an editable design layer such as Canva, because deterministic typography is easier to QA than text baked into generative imagery.
@@ -119,7 +134,7 @@ Use:
 Pull the business objective from `MARKETING_ENGINE.md` and the Control Center.
 
 ### Brief
-Define brand, audience, platform, format, message, CTA, factual claims, source requirements and deadline.
+Define brand, audience, platform, format, message, CTA, factual claims, source requirements and deadline. State whether a logo is required and the intended placement/background so the correct master can be selected.
 
 ### Trend Scan
 When trend relevance matters, inspect current visual, editing, platform and competitor patterns. Borrow principles, not copyrighted executions or brand identities.
@@ -131,16 +146,21 @@ Generate 2–5 materially different creative directions when the decision is imp
 Finalize the message before expensive production whenever possible.
 
 ### Raw Asset Generation
-Create backgrounds, imagery, diagrams, B-roll concepts, shot ideas or generated clips using the most suitable available ChatGPT capability or connected production plugin.
+Create backgrounds, imagery, diagrams, B-roll concepts, shot ideas or generated clips using the most suitable available ChatGPT capability or connected production plugin. Keep generated layers free of BZ marks and reserve the planned logo area; apply the Brand Asset Lock in section 2.
 
 ### Assembly
-Apply exact typography, official logos, iconography, spacing and composition in an editable production environment when available.
+Before logo-required assembly, perform an asset-availability check:
+1. Retrieve the selected original from the private Drive `00_MASTER_BRAND_ASSETS`; verify access to the actual file, its approval provenance and its match to the intended variant. A folder name, chat reference or preview alone does not establish availability.
+2. Confirm the intact file has adequate resolution, readable details and suitable contrast at the intended output size; verify it can be imported unchanged into Canva.
+3. If access, authenticity, quality or tool availability cannot be verified, flag the precise blocker in the existing Control Center record and follow the internal-draft boundary in section 2. Never silently substitute, recreate or omit a required logo.
+
+After the check passes, use Canva for deterministic compositing of exact typography, the unchanged official logo, iconography, spacing and composition. Keep the logo separate from generated imagery and protect its layer from accidental edits. Import the supplied background intact; do not use background removal or generative editing on the master.
 
 ### Motion / Edit
-For video, apply pacing, subtitles, transitions, audio structure, motion graphics and platform-safe framing.
+For video, apply pacing, subtitles, transitions, audio structure, motion graphics and platform-safe framing. Complete generative scene/video work before logo compositing; keep the logo unchanged as a separate deterministic overlay or end card and never feed the branded result back into a generative tool.
 
 ### Brand QA
-Verify the final asset uses authentic brand masters and matches the visual system.
+Verify the final asset uses the selected authentic master and matches the visual system. Compare the exported logo with its original for colors, proportions, “consulting” text, leaf/symbol and completeness; check placement contrast at delivery size and throughout video. Confirm no generated substitute or internal placeholder remains.
 
 ### Content QA
 Verify spelling, claims, legibility, technical consistency, safe zones, resolution, aspect ratio and CTA.
@@ -192,7 +212,7 @@ Keep brand consistency through identity, hierarchy and tone — not through clon
 Private production assets live in Google Drive. The Control Center remains the canonical tracker for status, schedule, KPI and publication history.
 
 ### Master / system folders
-- `00_MASTER_BRAND_ASSETS` — official logos, approved colors, fonts references, icon systems, brand references. No quota.
+- `00_MASTER_BRAND_ASSETS` — private canonical storage for the two BZ logo originals defined in section 2, approved colors, fonts references, icon systems and brand references. No quota; no public-repository asset copies.
 - `12_TEMPLATES_COMPONENTS` — reusable editable templates, layout systems, lower thirds, title cards, motion components. No arbitrary quota.
 
 ### Production library folders
@@ -234,10 +254,10 @@ Briefing, strategy, research, ideation, scripts, copy, storyboards, shot lists, 
 Raw visuals, scenes, illustrations, concept exploration, image editing and visual variants. Never generate the protected BZ logo.
 
 ### Canva connector
-Preferred for deterministic design assembly, exact copy, placement of official logos, editable layouts, reusable templates and visual/video editing when supported.
+Use Canva for deterministic compositing, exact copy, placement of unchanged official logos, editable layouts, reusable templates and supported visual/video editing. Apply the Assembly availability check before relying on an import or edit; tool access is not assumed.
 
-### Connected video generation / editing plugin
-Use a capable ChatGPT-integrated video tool when connected and when it materially improves motion/video production. Verify connection and function before relying on it.
+### Runway / connected video generation and editing tools
+Use Runway or another capable connected tool for unbranded scenes, B-roll and generated video layers only. Never generate, reinterpret or alter the BZ mark; add the approved master afterward in Canva as defined in Assembly. Verify connection and the required function before relying on any tool; Runway availability is not assumed.
 
 ### Metricool
 Publishing preparation, scheduling after approval, channel analytics and performance learning.
@@ -306,7 +326,7 @@ Explicit approval is required before:
 A creative asset is production-ready when:
 1. it serves a defined business/content objective;
 2. copy and factual claims pass the appropriate verification;
-3. the official brand asset is used correctly or, if the logo is intentionally absent, no fake replacement exists;
+3. when a logo is required, the asset-availability check passes and one of the two approved originals is used unchanged with suitable contrast; an intentionally logo-free brief contains no fake replacement, and missing files never justify omitting a required logo;
 4. the visual/video meets platform technical requirements;
 5. brand and content QA pass;
 6. the editable/master source is preserved when available;
